@@ -10,7 +10,11 @@
   "devDependencies": {
     "grunt": "~0.4.1",
     "grunt-contrib-watch": "~0.3.1",
-    "grunt-contrib-jshint": "~0.3.0"
+    "grunt-contrib-jshint": "~0.3.0",
+    "expect.js": "~0.2.0",
+    "grunt-mocha": "~0.3.0",
+    "mocha": "~1.9.0",
+    "chai": "~1.5.0"
   },
   "scripts": {
     "test": "grunt mocha"
