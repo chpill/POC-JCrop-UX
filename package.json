@@ -1,0 +1,26 @@
+{
+  "name": "POC-JCrop-UX",
+  "version": "0.0.0",
+  "description": " Proof of concept: ui to manipulate dom frames (size, crop, rotate & co) ",
+  "main": "Gruntfile.js",
+  "private": "true",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-watch": "~0.3.1",
+    "grunt-contrib-jshint": "~0.3.0"
+  },
+  "scripts": {
+    "test": "grunt mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/chpill/POC-JCrop-UX.git"
+  },
+  "author": "etienne@spillemaeker.com",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "gitHead": "f673adb377a3e0a267ab36ec9cde86c005b93c69"
+}

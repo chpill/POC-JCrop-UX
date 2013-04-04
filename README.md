@@ -10,11 +10,13 @@ This POC aims to 2 things:
 
 * node
 * bower
+* grunt
 
 # Install
 
 ```shell
 bower install
+npm install
 ```
 # Run
 
