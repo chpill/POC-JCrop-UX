@@ -1,4 +1,5 @@
 {
   "es5": true,
-  "scripturl": true
+  "scripturl": true,
+  "expr": true
 }

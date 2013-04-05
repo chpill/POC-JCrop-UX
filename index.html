@@ -13,19 +13,31 @@
 
 
 <div class="page-header">
-<h1>POC canvas + crop</h1>
-</div>
-  <canvas id="cv" width="600px" height="400px" >
-    Pas de canvas!
-  </canvas>
 
-  <div class="description">
+<h1>POC canvas + crop</h1>
+
+<div class="description">
+
   <p>
     <b>Example to demonstrate the use of JCrop as a handler for a future photo tool</b><br />
     Renderer: canvas (could be something else)
   </p>
-  </div>
+</div>
 
-</body>
+</div>
+
+<canvas id="cv" width="600px" height="400px" >Pas de canvas!</canvas>
+
+<!-- coordinates of the selection if there is one will be printed here -->
+<div>
+
+  <div>X = <span class="coordinate" id="x">NA</span></div>
+  <div>Y = <span class="coordinate" id="y">NA</span></div>
+  <div>Width = <span class="coordinate" id="width">NA</span></div>
+  <div>Height =<span class="coordinate" id="height">NA</span></div>
+
+</div>
+
+  </body>
 </html>
 
